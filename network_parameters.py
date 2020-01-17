@@ -17,11 +17,6 @@ bet_cen_list = list()
 bet_cen_invert = dict()
 
 # Change Path for E. Coli file on a different device
-"""
-C:/Users/TLC/Desktop/RSIC Project - Dr. Karthik Raman/ecoli.txt             --   TLC computer 6 from recording room
-E:ecoli.txt   --  Balan's Laptop
-C:/Users/TLC/Desktop/RSIC/ecoli.txt    -- TLC computer 4 from the recording room
-"""
 
 # Making the graph
 with open('E:ecoli.txt', 'r') as f:
@@ -105,10 +100,4 @@ for i in range(1, 11):
             print('ERROR')
             pass
 
-"""
-"""        
-Keys for TLC Computer        
-
-!  @  #  $  %  ^  &  *  ()  _  +  {}  | 
-"  <>  ?  /  \  .  ,  ;  '  []  =  -  :
 """
